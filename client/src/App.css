@@ -1,0 +1,26 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.btn{
+  background-color:#AD49E1;
+  padding: 0.5rem 1rem;
+  transition: 0.3s ease-in-out;
+  border-radius: 0.5rem;
+
+  &:hover{
+    background-color: #2E073F;
+    color: white;
+    &:active{
+      transform: scale(0.95);
+    }
+  }
+}
+
+.bord{
+  border: 1px solid #697565;
+  border-radius: .2rem;
+  width: 40rem;
+}
